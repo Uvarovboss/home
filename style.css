@@ -1,0 +1,123 @@
+body{
+	margin: 0 auto;
+/*	background-image: url(https://1.bp.blogspot.com/-nAVSwUkZwcg/Wa_EaES_Z2I/AAAAAAABUv8/5SxSEPHhapUwHQAfpbX5EJPDyu994GjkgCLcBGAs/w1200-h630-p-k-no-nu/0chapions.jpeg);
+*/}
+.color{
+	background-image: url(https://footballdave.files.wordpress.com/2014/10/header_banner.jpg);
+}
+.header{
+	display: flex;
+	justify-content:center;
+}
+.header h1{
+	color: grey;
+}
+.fifa{
+	display: flex;
+	justify-content: center;
+}
+h1{
+	display: flex;
+	justify-content: center;
+}
+/*nav{
+	background-image: url(http://i45.tinypic.com/2usvigi.png);
+}*/
+nav ul{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: flex-end;
+	list-style: none;
+}
+nav ul li{
+	font-size: 20px;
+	color: white;
+	width: 100px;
+	padding: 20px;
+	margin: 5px;
+	background-color: blue;
+	cursor:pointer;
+	transition: all 2s;
+	text-transform: uppercase;
+	border-radius: 30px;
+}
+nav ul li:hover {
+	transition: all 2s;
+	background-color: yellow;
+}
+.Barselona div img{
+	width: 640px;
+	height: 360px;
+	border-radius: 30px;
+}
+.kidsBarsa{
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	font-family: monospace;
+}
+.Barselona{ 
+	display: flex;
+}
+.Barselona p{
+	color: white;
+	border-radius: 30px;
+	margin: 10px;
+	padding: 7px;
+	background-image: url(https://www.themeraider.com/wp-content/uploads/2016/04/fcb-background-4.jpg);
+	background-size: 100%;
+	height: 350px;
+	position: relative;
+	top: -10px;
+	clear: right;
+}
+/*.fond{
+	background-image: url(https://thumbs.dreamstime.com/b/green-grass-background-soccer-field-bangkok-thailand-45809852.jpg);
+}*/
+.kidsReal{
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	font-family: monospace;
+}
+.RealMadrid{
+	margin: 0;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.RealMadrid div img{
+	border-radius: 30px;
+}
+.RealMadrid p{
+	background-image: url(http://www.eventostoppanama.com/wp-content/uploads/2013/07/real-madrid-entrenamiento-2013.jpg);
+	background-size: 100%;
+	background-position: center;
+	border-radius: 30px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	height: 280px;
+	position: relative;
+	top: 60px;
+}
+.fondreal{
+	background-image: url(http://cache-fcp.cloud.facilit.us/azure/dam/sz.H/fcporto.pt/sem%20data/futebol/gen%C3%A9ricos%20apoio/31045.jpg);
+}
+.goldman{
+	display: flex;
+	justify-content: center;
+	font-family: monospace;
+}
+.bacfon{
+	background-image: url(http://oboi-dlja-stola.ru/file/898/760x0/16:9/%D0%A4%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D0%BE-%D1%81%D0%B8%D0%BD%D0%B8%D0%B9-%D1%84%D0%BE%D0%BD.jpg);
+	background-size: 100%;
+}
+.pictures2{
+	display: flex;
+	justify-content: space-around;
+}
+@madia screen and (max-width:742px){
+ 	body{
+ 		background-color: red;
+ 	}
